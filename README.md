@@ -1,4 +1,4 @@
-# Peter_Min_Project1
+# Mini_Project_1
 [![CI/CD Pipeline](https://github.com/nogibjj/Peter_Min_Project1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Peter_Min_Project1/actions/workflows/cicd.yml)
 
 This is the README for my Mini Project 1 for the IDS706 - Data Engineering Systems class at Duke University.
@@ -25,3 +25,13 @@ Specifies the name of the CI/CD workflow, condition to trigger the workflow, and
 
 ### .devcontainer/Dockerfile && .devcontainer/devcontainer.json
 These 2 files specify the configurations that create a dev container, which can be regarded as a 'sandbox' or 'playground' environment with a list of pre-built settings that you can experiment your code in without worrying about version mismatches or other hiccups.
+
+## To Set Up
+1. Clone this repo
+2. Navigate to the project directory
+3. Install the required packages by running `make install`
+
+## To Use
+From the project folder:
+- Run `pytest` to test out the function in `main.py`
+- Run `make all` to initiate the entire process from installing packages to testing
